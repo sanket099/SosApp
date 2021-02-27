@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    >
+
+
+    <item
+        android:id="@+id/callpol"
+        android:icon="@drawable/call_pol_button"
+        android:fontFamily="@font/font"
+        android:title="CALL POLICE"
+        />
+    <item
+        android:id="@+id/shownearby"
+        android:fontFamily="@font/font"
+
+        android:title="SHOW NEARBY"
+
+        />
+
+</menu>

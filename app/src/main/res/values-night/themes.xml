@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="app_bar" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">#deafdc</item>
+        <item name="android:textColor">#deafdc</item>
+
+        <item name="actionBarItemBackground">@color/colorPrimaryDark</item>
+
+        <item name="android:itemBackground">@color/colorPrimaryDark</item>
+
+        <item name="android:overlapAnchor" tools:targetApi="lollipop">false</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+
+
+    </style>
+
+
+</resources>
